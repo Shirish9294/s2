@@ -55,6 +55,7 @@ INSTALLED_APPS = [
     'django.contrib.humanize',
     'anymail',
     'rest_framework',
+    'storages',
 ]
 
 # Replace 'user' with your gmail account name for django apps
@@ -198,7 +199,7 @@ Configuration.configure(
 
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 #STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static/')]
-STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 # STATIC_URL = '/static/'
 
 
